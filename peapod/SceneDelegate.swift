@@ -10,8 +10,31 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
-
+    
+    open class var shared:SceneDelegate {
+        get {
+            let scenc = UIApplication.shared.connectedScenes.first
+            return scenc?.delegate as! SceneDelegate
+        }
+    }
+    func next() {
+        if Token.isLogin() {
+            toHome()
+        } else {
+            toLogin()
+        }
+        
+    }
+    func toLogin() {
+        let storyboard =  UIStoryboard(name:"Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Login")
+        window!.rootViewController = controller
+    }
+    func toHome() {
+        let storyboard =  UIStoryboard(name:"Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "HomeNavi")
+        window!.rootViewController = controller
+    }
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87A550012A17903500A1E05E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A550002A17903500A1E05E /* Token.swift */; };
+		87A550092A179DE700A1E05E /* ImgViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A550082A179DE700A1E05E /* ImgViewCell.swift */; };
 		87A787242A17560600240993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787232A17560600240993 /* AppDelegate.swift */; };
 		87A787262A17560600240993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787252A17560600240993 /* SceneDelegate.swift */; };
 		87A787282A17560600240993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787272A17560600240993 /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		87A7873B2A17560700240993 /* peapodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7873A2A17560700240993 /* peapodTests.swift */; };
 		87A787452A17560700240993 /* peapodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787442A17560700240993 /* peapodUITests.swift */; };
 		87A787472A17560700240993 /* peapodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787462A17560700240993 /* peapodUITestsLaunchTests.swift */; };
+		87A787582A1759A700240993 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787572A1759A700240993 /* SplashController.swift */; };
+		87A7875A2A1763A200240993 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A787592A1763A200240993 /* LoginController.swift */; };
+		87C9EDE12A188D83007A32B6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9EDE02A188D83007A32B6 /* DetailViewController.swift */; };
+		87C9EDE32A189D64007A32B6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C9EDE22A189D64007A32B6 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87A550002A17903500A1E05E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		87A550082A179DE700A1E05E /* ImgViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgViewCell.swift; sourceTree = "<group>"; };
 		87A787202A17560600240993 /* peapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peapod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A787232A17560600240993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87A787252A17560600240993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		87A787402A17560700240993 /* peapodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peapodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A787442A17560700240993 /* peapodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peapodUITests.swift; sourceTree = "<group>"; };
 		87A787462A17560700240993 /* peapodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peapodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87A787572A1759A700240993 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		87A787592A1763A200240993 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		87C9EDE02A188D83007A32B6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		87C9EDE22A189D64007A32B6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		87A787222A17560600240993 /* peapod */ = {
 			isa = PBXGroup;
 			children = (
+				87A787562A17598300240993 /* Controller */,
 				87A787232A17560600240993 /* AppDelegate.swift */,
 				87A787252A17560600240993 /* SceneDelegate.swift */,
 				87A787272A17560600240993 /* ViewController.swift */,
@@ -125,6 +138,19 @@
 				87A787462A17560700240993 /* peapodUITestsLaunchTests.swift */,
 			);
 			path = peapodUITests;
+			sourceTree = "<group>";
+		};
+		87A787562A17598300240993 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87A787572A1759A700240993 /* SplashController.swift */,
+				87A787592A1763A200240993 /* LoginController.swift */,
+				87A550002A17903500A1E05E /* Token.swift */,
+				87A550082A179DE700A1E05E /* ImgViewCell.swift */,
+				87C9EDE02A188D83007A32B6 /* DetailViewController.swift */,
+				87C9EDE22A189D64007A32B6 /* File.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A787582A1759A700240993 /* SplashController.swift in Sources */,
 				87A787282A17560600240993 /* ViewController.swift in Sources */,
+				87A550092A179DE700A1E05E /* ImgViewCell.swift in Sources */,
 				87A787242A17560600240993 /* AppDelegate.swift in Sources */,
+				87A550012A17903500A1E05E /* Token.swift in Sources */,
 				87A787262A17560600240993 /* SceneDelegate.swift in Sources */,
+				87A7875A2A1763A200240993 /* LoginController.swift in Sources */,
+				87C9EDE32A189D64007A32B6 /* File.swift in Sources */,
+				87C9EDE12A188D83007A32B6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +472,13 @@
 				DEVELOPMENT_TEAM = R944M4LQ68;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = peapod/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PeaPod;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +502,13 @@
 				DEVELOPMENT_TEAM = R944M4LQ68;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = peapod/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PeaPod;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
