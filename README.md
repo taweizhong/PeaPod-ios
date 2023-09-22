@@ -4,6 +4,8 @@
 
 使用swift构建的简单iOS应用，包括应用进入界面、主菜单界面和二级详情页。
 
+<img src="ttps://f.pz.al/pzal/2023/09/22/7319e4ba0777d.png" style="zoom:50%;" />
+
 ![](https://f.pz.al/pzal/2023/09/22/7319e4ba0777d.png)
 
 ![](https://f.pz.al/pzal/2023/09/22/8f03ef050035c.png)
